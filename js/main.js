@@ -3,6 +3,10 @@
  	easing: 'slide'
  });
 
+ function websiteVisits(response) {
+    document.querySelector("#visits").textContent = response.value;
+}
+
 $(document).ready(function($) {
 
 	"use strict";
