@@ -5,6 +5,7 @@
 
  function websiteVisits(response) {
     document.querySelector("#visits").textContent = response.value;
+    console.log(response.value)
 }
 
 $(document).ready(function($) {
